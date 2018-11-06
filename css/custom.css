@@ -4,6 +4,7 @@ Add your custom styles below
 
 .nav-container {
 	padding-top:15px;
+	padding-bottom:15px;
 }
 
 .nav-bar {
@@ -12,10 +13,12 @@ Add your custom styles below
 }
 
 .menu > li {
-	font-size: 20px;
+	font-size: 25px;
 }
 
-
+#tu-logo {
+	height: 115%;
+}
 
 .partners-1 .slider img {
     opacity: 1;
