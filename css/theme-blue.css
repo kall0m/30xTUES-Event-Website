@@ -587,7 +587,7 @@ img {
   will-change: transform, top;
   position: absolute;
   height: 100%;
-  top: 0;
+  top:0;
   left: 0;
   background-size: cover !important;
   background-position: 50% 50% !important;
