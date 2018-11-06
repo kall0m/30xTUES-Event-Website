@@ -9,6 +9,9 @@ Add your custom styles below
 .nav-bar {
 	display: flex;
 	justify-content: space-between;
+	height: 100px;
+	max-height: 100px;
+	line-height: 98px;
 }
 
 .menu > li {
@@ -36,6 +39,11 @@ section.space--sm {
 #footer-logo-site-container {
 	position: absolute;
 	
+}
+
+#tu-logo-img {
+	height: 100%;
+	width:auto;
 }
 
 @media (max-width: 990px) {

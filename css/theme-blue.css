@@ -1313,9 +1313,9 @@ nav {
 }
 .nav-bar {
   will-change: scroll-position, transform;
-  height: 100px;
-  max-height: 100px;
-  line-height: 98px;
+  height: 65px;
+  max-height: 65px;
+  line-height: 65px;
 }
 .nav-bar .logo {
   max-height: 40%;
