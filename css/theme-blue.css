@@ -587,7 +587,7 @@ img {
   will-change: transform, top;
   position: absolute;
   height: 100%;
-  top: 0;
+  top:0;
   left: 0;
   background-size: cover !important;
   background-position: 50% 50% !important;
@@ -1313,9 +1313,9 @@ nav {
 }
 .nav-bar {
   will-change: scroll-position, transform;
-  height: 65px;
-  max-height: 65px;
-  line-height: 62px;
+  height: 100px;
+  max-height: 100px;
+  line-height: 98px;
 }
 .nav-bar .logo {
   max-height: 40%;

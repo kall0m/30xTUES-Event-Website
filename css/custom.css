@@ -2,16 +2,18 @@
 Add your custom styles below
 ****************************/
 
+.logo-module {
+	margin-top:15px;
+}
+
 .nav-bar {
 	display: flex;
 	justify-content: space-between;
 }
 
 .menu > li {
-	font-size: 16px;
+	font-size: 25px;
 }
-
-
 
 .partners-1 .slider img {
     opacity: 1;
