@@ -170,3 +170,9 @@ Add your custom styles below
 		padding: 120px 0;
 	}
 }
+
+@media only screen and (min-width: 780px) {
+	.gamma, .partners{
+		max-height: 6em !important;
+	}
+}

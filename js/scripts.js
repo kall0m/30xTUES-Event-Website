@@ -1097,7 +1097,6 @@ mr = (function (mr, $, window, document){
                 dropDown.css('margin-left', -(difference));
             }
         });
-
     };
 
     ///
