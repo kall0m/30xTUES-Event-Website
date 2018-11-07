@@ -2,6 +2,15 @@
 Add your custom styles below
 ****************************/
 
+.wrap {
+  padding: 20px 0;
+}
+
+.page-border {
+  margin: 20px;
+  background: #EAE6E5;
+}
+
 .logo-module {
 	margin-top:15px;
 }
@@ -52,6 +61,27 @@ section.space--sm {
 	width:auto;
 }
 
+#conference-background {
+	padding: 0;
+}
+
+#conference-background div{
+	position: relative;
+}
+
+#conference-background div img {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+    vertical-align: top;
+	margin: 0;
+}
+
+#party-section {
+    padding: 400px 0;
+}
+
 @media (max-width: 990px) {
 	.nav-bar {
 		display: block;
@@ -66,5 +96,29 @@ section.space--sm {
 @media (max-width: 860px) {
 	#footer-logo-site-container {
 		position: relative;
+	}
+}
+
+@media (max-width: 1300px) {
+	#party-section {
+		padding: 300px 0;
+	}
+}
+
+@media (max-width: 950px) {
+	#party-section {
+		padding: 200px 0;
+	}
+}
+
+@media (max-width: 767px) {
+	#party-section {
+		padding: 170px 0;
+	}
+}
+
+@media (max-width: 470px) {
+	#party-section {
+		padding: 120px 0;
 	}
 }
