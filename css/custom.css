@@ -177,7 +177,15 @@ Add your custom styles below
 }
 
 @media only screen and (min-width: 780px) {
-	.gamma, .partners{
+	.gamma{
+		max-height: 7em !important;
+	}
+
+	.partners {
+		max-height: 6em !important;
+	}
+
+	#tbi a img {
 		max-height: 6em !important;
 	}
 }
