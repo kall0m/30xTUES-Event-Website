@@ -22,7 +22,7 @@ Add your custom styles below
     padding-bottom: 2em;
 }
 
-.parallax > .background-image-holder, .parallax .slides li > .background-image-holder {
+#conference-background-holder {
     height: 100%;
 }
 
@@ -97,6 +97,10 @@ Add your custom styles below
 	height: auto;
     vertical-align: top;
 	margin: 0;
+}
+
+.features-3 .feature:first-child {
+    margin: 0;
 }
 
 #party-section {

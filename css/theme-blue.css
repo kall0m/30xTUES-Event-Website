@@ -3228,12 +3228,28 @@ body.theme--boxed section.section--overlap + section:not(.bg--white):not(.bg--da
 }
 @font-face {
   font-family: 'Kelson';
-  src: url('../fonts/kelson/Kelson Sans Regular.otf') format('opentype');
-  src: url('../fonts/kelson/Kelson Sans Bold.otf') format('opentype');
-  src: url('../fonts/kelson/Kelson Sans Light.otf') format('opentype');
+  
   src: url('../fonts/kelson/Cyrillic/Bulgarian Cyrillic/Kelson Sans Regular BG.otf') format('opentype');
-  src: url('../fonts/kelson/Cyrillic/Bulgarian Cyrillic/Kelson Sans Bold BG.otf') format('opentype');
-  src: url('../fonts/kelson/Cyrillic/Bulgarian Cyrillic/Kelson Sans Light BG.otf') format('opentype');
+  
+  
+  
+  /*src: url('../fonts/kelson/Cyrillic/Bulgarian Cyrillic/kelson_sans_regular_bg-webfont.woff2') format('woff2'),
+		 url('../fonts/kelson/Cyrillic/Bulgarian Cyrillic/kelson_sans_regular_bg-webfont.woff') format('woff');
+		 src: url('../fonts/kelson/Cyrillic/Bulgarian Cyrillic/kelson_sans_bold_bg-webfont.woff2') format('woff2'),
+		 url('../fonts/kelson/Cyrillic/Bulgarian Cyrillic/kelson_sans_bold_bg-webfont.woff') format('woff');*/
+		 
+	/*src: url('../fonts/kelson/Cyrillic/Bulgarian Cyrillic/kelson_sans_bold_bg-webfont.woff2') format('woff2'),
+		 url('../fonts/kelson/Cyrillic/Bulgarian Cyrillic/kelson_sans_bold_bg-webfont.woff') format('woff');
+	src: url('../fonts/kelson/Cyrillic/Bulgarian Cyrillic/kelson_sans_light_bg-webfont.woff2') format('woff2'),
+		 url('../fonts/kelson/Cyrillic/Bulgarian Cyrillic/kelson_sans_light_bg-webfont.woff') format('woff');*/
+		 
+	/*src: url('../fonts/kelson/kelson_sans_regular-webfont.woff2') format('woff2'),
+		 url('../fonts/kelson/kelson_sans_regular-webfont.woff') format('woff');
+	src: url('../fonts/kelson/kelson_sans_bold-webfont.woff2') format('woff2'),
+		 url('../fonts/kelson/kelson_sans_bold-webfont.woff') format('woff');
+	src: url('../fonts/kelson/kelson_sans_light-webfont.woff2') format('woff2'),
+		 url('../fonts/kelson/kelson_sans_light-webfont.woff') format('woff');*/
+  
   font-weight: 600;
   font-style: normal;
 }
