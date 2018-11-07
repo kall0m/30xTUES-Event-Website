@@ -6,9 +6,24 @@ Add your custom styles below
   padding: 20px 0;
 }
 
+.lead {
+	line-height: 1.4;
+	font-size: 20px;
+}
+
 .page-border {
   margin: 20px;
   background: #EAE6E5;
+}
+
+#logo-slider {
+	line-height: 8em;
+	padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#information-section {
+	background: #f4f4f4;
 }
 
 .logo-module {
@@ -52,22 +67,13 @@ Add your custom styles below
     margin: 0 -8%;
 }
 
-section.space--sm {
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
-
 .btn__text {
 	font-size: 14px !important;
 }
 
-#footer-logo-site-container {
-	position: absolute;
-	
-}
-
 #tu-logo-img {
 	height: 100%;
+	max-height: 65px;
 	width:auto;
 }
 
@@ -90,6 +96,22 @@ section.space--sm {
 
 #party-section {
     padding: 400px 0;
+}
+
+.footer-3 .logo {
+    display: inline-block;
+}
+
+#tu-logo-footer-mobile {
+	display: none;
+}
+
+#tu-logo-footer {
+	display: block;
+}
+
+#copyright {
+	font-size: 14px;
 }
 
 @media (max-width: 990px) {
@@ -129,9 +151,21 @@ section.space--sm {
 	.menu > li {
 		font-size: 25px;
 	}
+	
+	footer div {
+		text-align: center;
+	}
+	
+	#tu-logo-footer-mobile {
+		display: block;
+	}
+	
+	#tu-logo-footer {
+		display: none;
+	}
 }
 
-@media (max-width: 470px) {
+@media (max-width: 500px) {
 	#party-section {
 		padding: 120px 0;
 	}
