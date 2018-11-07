@@ -103,10 +103,6 @@ Add your custom styles below
     margin: 0;
 }
 
-#party-section {
-    padding: 400px 0;
-}
-
 .footer-3 .logo {
     display: inline-block;
 }
@@ -140,21 +136,33 @@ Add your custom styles below
 	}
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1580px) {
 	#party-section {
-		padding: 300px 0;
+		height: 70vh;
 	}
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1330px) {
 	#party-section {
-		padding: 200px 0;
+		height: 60vh;
+	}
+}
+
+@media (max-width: 1070px) {
+	#party-section {
+		height: 50vh;
+	}
+}
+
+@media (max-width: 940px) {
+	#party-section {
+		height: 40vh;
 	}
 }
 
 @media (max-width: 767px) {
 	#party-section {
-		padding: 170px 0;
+		height: 35vh;
 	}
 
 	.menu > li {
@@ -174,9 +182,27 @@ Add your custom styles below
 	}
 }
 
-@media (max-width: 500px) {
+@media (max-width: 640px) {
 	#party-section {
-		padding: 120px 0;
+		height: 30vh;
+	}
+}
+
+@media (max-width: 570px) {
+	#party-section {
+		height: 25vh;
+	}
+}
+
+@media (max-width: 480px) {
+	#party-section {
+		height: 20vh;
+	}
+}
+
+@media (max-width: 390px) {
+	#party-section {
+		height: 15vh;
 	}
 }
 
