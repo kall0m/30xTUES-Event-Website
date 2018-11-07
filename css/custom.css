@@ -18,6 +18,12 @@ Add your custom styles below
 	font-size: 25px;
 }
 
+@media only screen and (max-width: 786px){
+	.menu-module {
+		margin-top:30px;
+	}
+}
+
 .partners-1 .slider img {
     opacity: 1;
     max-height: 12em;
