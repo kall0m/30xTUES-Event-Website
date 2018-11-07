@@ -27,9 +27,15 @@ Add your custom styles below
 	font-size: 25px;
 }
 
-@media only screen and (max-width: 786px){
+@media only screen and (max-width: 990px){
 	.menu-module {
 		margin-top:30px;
+	}
+}
+
+@media only screen and (max-width: 1140px){
+	.menu > li {
+		font-size: 15px;
 	}
 }
 
@@ -114,6 +120,10 @@ section.space--sm {
 @media (max-width: 767px) {
 	#party-section {
 		padding: 170px 0;
+	}
+
+	.menu > li {
+		font-size: 25px;
 	}
 }
 
