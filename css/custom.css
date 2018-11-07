@@ -22,8 +22,13 @@ Add your custom styles below
     padding-bottom: 2em;
 }
 
+.parallax > .background-image-holder, .parallax .slides li > .background-image-holder {
+    height: 100%;
+}
+
 #information-section {
 	background: #f4f4f4;
+	font-size: 19px;
 }
 
 .logo-module {
