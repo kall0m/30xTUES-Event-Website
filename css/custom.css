@@ -186,10 +186,17 @@ Add your custom styles below
 	}
 
 	.partners {
-		max-height: 6em !important;
+		max-height: 7em !important;
 	}
 
 	#tbi a img {
 		max-height: 6em !important;
 	}
 }
+
+@media only screen and (max-width: 1500px) {
+	#chaos {
+		max-width: 200px !important;
+	}
+}
+
