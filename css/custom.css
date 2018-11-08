@@ -7,7 +7,6 @@ Add your custom styles below
 }
 
 .lead {
-	line-height: 1.4;
 	font-size: 20px;
 }
 
@@ -23,12 +22,15 @@ Add your custom styles below
 }
 
 #conference-background-holder {
-    height: 100%;
+    
 }
 
 #information-section {
 	background: #f4f4f4;
-	font-size: 19px;
+}
+
+#program-background-holder {
+    height: 100%;
 }
 
 .logo-module {
@@ -136,33 +138,27 @@ Add your custom styles below
 	}
 }
 
-@media (max-width: 1580px) {
+@media (max-width: 1330px) {
 	#party-section {
 		height: 70vh;
 	}
 }
 
-@media (max-width: 1330px) {
+@media (max-width: 1070px) {
 	#party-section {
 		height: 60vh;
 	}
 }
 
-@media (max-width: 1070px) {
+@media (max-width: 940px) {
 	#party-section {
 		height: 50vh;
 	}
 }
 
-@media (max-width: 940px) {
-	#party-section {
-		height: 40vh;
-	}
-}
-
 @media (max-width: 767px) {
 	#party-section {
-		height: 35vh;
+		height: 45vh;
 	}
 
 	.menu > li {
@@ -184,25 +180,25 @@ Add your custom styles below
 
 @media (max-width: 640px) {
 	#party-section {
-		height: 30vh;
+		height: 40vh;
 	}
 }
 
 @media (max-width: 570px) {
 	#party-section {
-		height: 25vh;
+		height: 35vh;
 	}
 }
 
 @media (max-width: 480px) {
 	#party-section {
-		height: 20vh;
+		height: 30vh;
 	}
 }
 
 @media (max-width: 390px) {
 	#party-section {
-		height: 15vh;
+		height: 25vh;
 	}
 }
 
