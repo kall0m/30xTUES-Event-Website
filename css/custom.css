@@ -216,9 +216,18 @@ Add your custom styles below
 	}
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1500px) and (min-width: 780px){
 	#chaos {
 		max-width: 200px !important;
 	}
 }
 
+@media only screen and (max-width: 780px){
+	#chaos {
+		max-width: 85% !important;
+	}
+
+	#uber {
+		height: 100% !important;
+	}
+}
