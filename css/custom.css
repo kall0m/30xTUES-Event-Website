@@ -222,7 +222,7 @@ Add your custom styles below
 	}
 }
 
-@media only screen and (max-width: 780px){
+@media only screen and (max-width: 960px){
 	#chaos {
 		max-width: 85% !important;
 	}
